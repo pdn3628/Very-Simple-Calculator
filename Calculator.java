@@ -82,6 +82,7 @@ public class Calculator extends Application {
             calculate();
         }else if (text.equalsIgnoreCase("Clear")) {
             textField.clear();
+            oneOp = false;
         }
         else if ((text.equals(" + ")) || (text.equals(" - ")) ||
                 (text.equals(" * ")) || (text.equals(" // "))){
